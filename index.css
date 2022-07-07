@@ -1,0 +1,86 @@
+table{
+    border-style: solid;
+    border-color: olive;  
+    border-collapse: collapse;
+
+}
+
+
+tbody td{
+    text-align: center;
+    padding: 20px;
+}
+thead tr:nth-child(2){
+    background-color: grey;
+    color: white;
+    padding:100px;
+}
+thead > tr > th:nth-child(1){
+    padding: 20px;
+    font-weight: 900;
+    font-style: Hipsthetic;
+    font-weight: bolder;
+}
+thead > tr > th{
+    color: white;
+    font-size: bolder;
+    font-family: Hipsthetic;
+    font-size: larger;
+}
+
+thead > tr:nth-child(1){
+    background-color: yellowgreen;
+    
+}
+
+.bg-color-col1{
+    background-color: red;
+}
+.bg-color-col2{
+    background-color: orange;
+}
+table > thead > tr:nth-child(2){
+    background-color: grey;
+}   
+
+tbody tr:nth-child(2n){
+    background-color: #686868;
+    color: white;
+    font-weight: 900;
+}
+
+tbody tr:nth-child(2n+1){
+    background-color: #a0a0a0;
+    color: white;
+    font-weight: 900;
+}
+
+table > tbody > tr > td:last-child {
+    color: red;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+table > tbody > tr> td:nth-child(6){
+    color: orange;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+button{
+    background-color: #3cb371;
+    border-color: transparent;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+tfoot td{
+    background-color: olive;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: bolder;
+    font-family: Hipsthetic;
+}
